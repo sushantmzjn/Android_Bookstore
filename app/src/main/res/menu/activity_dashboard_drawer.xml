@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/pp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_myOrder"
+            android:icon="@drawable/oders"
+            android:title="My Order" />
+        <item
+            android:id="@+id/nav_myCart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+
+        <item android:title="Categories">
+            <menu>
+                <item
+                    android:id="@+id/nav_comic"
+                    android:title="Comic" />
+                <item
+                    android:id="@+id/nav_novel"
+                    android:title="Novel" />
+                <item
+                    android:id="@+id/nav_thriller"
+                    android:title="Thriller" />
+                <item
+                    android:id="@+id/nav_romantic"
+                    android:title="Romantic" />
+            </menu>
+        </item>
+
+        <item android:title="About us">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about"
+                android:title="About us" />
+        </menu>
+        </item>
+    </group>
+
+
+
+</menu>

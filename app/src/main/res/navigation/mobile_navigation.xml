@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.merobookstore.bookstore.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.merobookstore.bookstore.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_myOrder"
+        android:name="com.merobookstore.bookstore.ui.myorder.MyOrderFragment"
+        android:label="My Order"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/nav_myCart"
+        android:name="com.merobookstore.bookstore.ui.usercart.UserCartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_user_cart" />
+
+    <fragment
+        android:id="@+id/nav_comic"
+        android:name="com.merobookstore.bookstore.ui.comic.ComicFragment"
+        android:label="Comic"
+        tools:layout="@layout/fragment_comic" />
+
+    <fragment
+        android:id="@+id/nav_novel"
+        android:name="com.merobookstore.bookstore.ui.novel.NovelFragment"
+        android:label="Novel"
+        tools:layout="@layout/fragment_novel"/>
+
+    <fragment
+        android:id="@+id/nav_thriller"
+        android:name="com.merobookstore.bookstore.ui.thriller.ThrillerFragment"
+        android:label="Thriller"
+        tools:layout="@layout/fragment_thriller"/>
+    <fragment
+        android:id="@+id/nav_romantic"
+        android:name="com.merobookstore.bookstore.ui.romantic.RomanticFragment"
+        android:label="Romantic"
+        tools:layout="@layout/fragment_romantic"/>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.merobookstore.bookstore.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.merobookstore.bookstore.ui.aboutus.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>
